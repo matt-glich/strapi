@@ -3875,7 +3875,7 @@ apollo-graphql@^0.6.0:
     apollo-env "^0.6.5"
     lodash.sortby "^4.7.0"
 
-apollo-link@^1.2.14, apollo-link@^1.2.3:
+apollo-link@^1.2.14:
   version "1.2.14"
   resolved "https://registry.yarnpkg.com/apollo-link/-/apollo-link-1.2.14.tgz#3feda4b47f9ebba7f4160bef8b977ba725b684d9"
   integrity sha512-p67CMEFP7kOG1JZ0ZkYZwRDa369w5PIjtMjvrQd/HnIV8FRsHRqLqK+oAZQnFa1DDdZtOtHTi+aMIW6EatC2jg==
@@ -8952,18 +8952,7 @@ graphql-tag@^2.9.2:
   resolved "https://registry.yarnpkg.com/graphql-tag/-/graphql-tag-2.11.0.tgz#1deb53a01c46a7eb401d6cb59dec86fa1cccbffd"
   integrity sha512-VmsD5pJqWJnQZMUeRwrDhfgoyqcfwEkvtpANqcoUG8/tOLkwNgU9mzub/Mc78OJMhHjx7gfAMTxzdG43VGg3bA==
 
-graphql-tools@4.0.6:
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-4.0.6.tgz#0e729e73db05ade3df10a2f92511be544972a844"
-  integrity sha512-jHLQw8x3xmSNRBCsaZqelXXsFfUSUSktSCUP8KYHiX1Z9qEuwcMpAf+FkdBzk8aTAFqOlPdNZ3OI4DKKqGKUqg==
-  dependencies:
-    apollo-link "^1.2.3"
-    apollo-utilities "^1.0.1"
-    deprecated-decorator "^0.1.6"
-    iterall "^1.1.3"
-    uuid "^3.1.0"
-
-graphql-tools@^4.0.0:
+graphql-tools@4.0.8, graphql-tools@^4.0.0:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-4.0.8.tgz#e7fb9f0d43408fb0878ba66b522ce871bafe9d30"
   integrity sha512-MW+ioleBrwhRjalKjYaLQbr+920pHBgy9vM/n47sswtns8+96sRn5M/G+J1eu7IMeKWiN/9p6tmwCHU7552VJg==
@@ -12758,10 +12747,10 @@ moment-timezone@^0.5.21, moment-timezone@^0.5.31:
   dependencies:
     moment ">= 2.9.0"
 
-"moment@>= 2.9.0", moment@>=1.6.0, moment@^2.16.0, moment@^2.24.0:
-  version "2.29.0"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.0.tgz#fcbef955844d91deb55438613ddcec56e86a3425"
-  integrity sha512-z6IJ5HXYiuxvFTI6eiQ9dm77uE0gyy1yXNApVHqTcnIKfY9tIwEjlzsZ6u1LQXvVgKeTnv9Xm7NDvJ7lso3MtA==
+"moment@>= 2.9.0", moment@>=1.6.0, moment@^2.24.0, moment@^2.29.1:
+  version "2.29.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
+  integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
 
 mongodb@3.6.2:
   version "3.6.2"
